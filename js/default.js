@@ -1,3 +1,3 @@
 document.getElementById('form').onsubmit = function(){
-  window.alert('押されました!');
+  window.alert(document.getElementById('form').word.value);
 };
