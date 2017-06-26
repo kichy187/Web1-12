@@ -17,6 +17,6 @@ var messaget;
    {
      messaget = Buzz;
    }
-   document.getElementById('choice').textContent = message;
-   document.getElementById('choice').textContent = messaget;
+   document.getElementById('message').textContent = message;
+   document.getElementById('messaget').textContent = messaget;
  }
