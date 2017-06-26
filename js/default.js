@@ -13,12 +13,12 @@ var messaget;
    if(keisan = 1)
    {
      message = Fizz;
+     document.getElementById('re').textContent = message;
    }
    keisan = i%5;
    if(keisan = 1)
    {
      messaget = Buzz;
+     document.getElementById('rere').textContent = messaget;
    }
-   document.getElementById('re').textContent = message;
-   document.getElementById('rere').textContent = messaget;
  }
