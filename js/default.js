@@ -12,13 +12,13 @@ var messaget;
    var keisan = i%3;
    if(keisan = 1)
    {
-     message = Fizz;
-     document.getElementById('re').textContent = message;
+     message.textContent = 'Fizz';
+     document.getElementById('re').appendChild(message);
    }
    var keisann = i%5;
    if(keisann = 1)
    {
-     messaget = Buzz;
-     document.getElementById('rere').textContent = messaget;
+     messaget.textContent = 'Buzz';
+     document.getElementById('rere').appendChild(messaget);
    }
  }
