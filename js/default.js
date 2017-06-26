@@ -9,16 +9,5 @@ var messaget;
    li.textContent = i + '回目';
    document.getElementById('list').appendChild(li);
    
-   var keisan = i%3;
-   if(keisan = 1)
-   {
-     message.textContent = 'Fizz';
-     document.getElementById('re').appendChild(message);
-   }
-   var keisann = i%5;
-   if(keisann = 1)
-   {
-     messaget.textContent = 'Buzz';
-     document.getElementById('rere').appendChild(messaget);
    }
  }
