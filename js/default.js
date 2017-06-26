@@ -15,8 +15,8 @@ var messaget;
      message = Fizz;
      document.getElementById('re').textContent = message;
    }
-   keisan = i%5;
-   if(keisan = 1)
+   var keisann = i%5;
+   if(keisann = 1)
    {
      messaget = Buzz;
      document.getElementById('rere').textContent = messaget;
